@@ -30,6 +30,30 @@ body.dark-mode {
   padding: 8px 16px;
   cursor: pointer;
 }
+.dark-mode .search-bar {
+  border: 2px solid #ffffff;
+}
+
+.dark-mode .news-input {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+.dark-mode .search-button {
+  background-color: #333;
+  color: #ffffff;
+}
+
+.dark-mode .card {
+  background-color: #121212;
+  box-shadow: 0 0 4px #121212;
+  color: #ffffff;
+}
+
+.dark-mode .card:hover {
+  background-color: #333;
+  box-shadow: 1px 1px 8px #333;
+}
 p {
   font-family: "Saira", sans-serif;
   color: var(--secondary-text-color);
@@ -124,7 +148,7 @@ main {
 }
 card:hover {
   box-shadow: 1px 1px 8px #d4ecff;
-  background-color: #f9fdff;
+  background-color: var(--card-background-color);
   transform: translateY(-2px);
 }
 

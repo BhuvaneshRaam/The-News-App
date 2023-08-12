@@ -93,8 +93,8 @@ searchButton.addEventListener("click", () => {
   curSelectedNav = null;
 });
 const darkModeToggle = document.getElementById("dark-mode-toggle");
-const body = document.body;
-
-darkModeToggle.addEventListener("click", () => {
+darkModeToggle.addEventListener("click", toggleDarkMode);
+function toggleDarkMode() {
+  const body = document.body;
   body.classList.toggle("dark-mode");
-});
+}
