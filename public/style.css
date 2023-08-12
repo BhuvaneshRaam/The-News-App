@@ -67,8 +67,7 @@ body.dark-mode {
 /* Dark mode for nav bar and nav links */
 .dark-mode .nav,
 .dark-mode .nav-links .nav-item {
-  background-color: #20384a; /* Change background color */
-  color: #ffffff;
+  color: #090808;
 }
 
 .dark-mode .halfmoon .moon,
@@ -96,8 +95,8 @@ ul {
   overflow: hidden;
 }
 nav {
-  background-color: #f3faff;
-  box-shadow: 0 0 4px #bbd0e2;
+  background-color: #3d3f40;
+  box-shadow: 0 0 4px #353536;
   position: fixed;
   top: 0;
   z-index: 99;
