@@ -66,6 +66,13 @@ body.dark-mode {
   left: 0;
   right: 0;
 }
+.dark-mode .nav-links .nav-item {
+  color: #ffffff;
+}
+.dark-mode .halfmoon .moon,
+.dark-mode .halfmoon .sun {
+  background-color: #ffffff;
+}
 p {
   font-family: "Saira", sans-serif;
   color: var(--secondary-text-color);
