@@ -29,6 +29,9 @@ body.dark-mode {
   border: none;
   padding: 8px 16px;
   cursor: pointer;
+  display: flex;
+  align-items: center; /* Center icon vertically */
+  font-family: "Saira", sans-serif;
 }
 .dark-mode .search-bar {
   border: 2px solid #ffffff;
@@ -164,4 +167,40 @@ card:hover {
 
 .news-source {
   margin-block: 12px;
+}
+
+.moon-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: var(--secondary-text-color);
+  border-radius: 50%;
+  position: relative;
+  margin-right: 8px;
+}
+
+.moon-icon::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: var(--background-color);
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.moon-icon::after {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 20px;
+  background-color: var(--primary-text-color);
+  border-radius: 50% 0 0 50%;
+  position: absolute;
+  top: 0;
+  left: 8px;
+  transform: rotate(-45deg);
 }
