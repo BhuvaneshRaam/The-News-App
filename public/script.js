@@ -18,7 +18,7 @@ async function fetchNews(query) {
     console.log("API Response:", res);
     const data = await res.json();
     console.log("Parsed Data:", data);
-    bindData(data.articles);
+    bindData(data);
     console.log("Received news data:", data);
   } catch (error) {
     console.error("Error fetching news data:", error);
