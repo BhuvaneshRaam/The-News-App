@@ -224,3 +224,19 @@ body.dark-mode .moon {
 body.dark-mode .sun {
   transform: translateX(0);
 }
+
+.company-logo-container {
+  width: 60px; /* Set width and height to make it a square */
+  height: 60px;
+  border-radius: 50%; /* Make it a circle */
+  overflow: hidden; /* Hide overflow for circular shape */
+  border: 2px solid #5288b7; /* Add border color */
+  margin-right: 16px; /* Add spacing between logo and other elements */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.company-logo img {
+  width: 100%; /* Make the image fill the container */
+  height: auto;
+}
