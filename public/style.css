@@ -114,6 +114,7 @@ nav {
 .nav-links ul {
   gap: 16px;
   cursor: pointer;
+  color: #ffffff;
 }
 .hover-link:hover {
   color: var(--secondary-text-color);
