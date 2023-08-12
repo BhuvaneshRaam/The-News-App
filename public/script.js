@@ -1,5 +1,5 @@
 const API_KEY = "ebc0f024ffe0418b9dbd4b219553528d";
-const url = "http://localhost:3000/api/news";
+const url = "api/news";
 
 window.addEventListener("load", () => fetchNews("India"));
 
