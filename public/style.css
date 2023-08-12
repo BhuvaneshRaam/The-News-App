@@ -23,6 +23,7 @@ body.dark-mode {
   background-color: #121212;
   color: #ffffff;
 }
+/* Dark mode toggle button */
 .dark-mode-toggle {
   background-color: #333;
   color: #fff;
@@ -30,15 +31,20 @@ body.dark-mode {
   padding: 8px 16px;
   cursor: pointer;
   display: flex;
-  align-items: center; /* Center icon vertically */
+  align-items: center;
   font-family: "Saira", sans-serif;
 }
-.dark-mode .search-bar {
-  border: 2px solid #ffffff;
+
+/* Dark mode styles */
+.dark-mode .search-bar,
+.dark-mode .news-input,
+.dark-mode .search-button,
+.dark-mode .card,
+.dark-mode .nav {
+  border-color: #ffffff; /* Use white border for dark mode elements */
 }
 
 .dark-mode .news-input {
-  border: 2px solid #ffffff;
   color: #ffffff;
 }
 
@@ -57,18 +63,14 @@ body.dark-mode {
   background-color: #333;
   box-shadow: 1px 1px 8px #333;
 }
-.dark-mode .nav {
-  background-color: #20384a;
-  box-shadow: 0 0 4px #72797e;
-  position: fixed;
-  top: 0;
-  z-index: 99;
-  left: 0;
-  right: 0;
-}
+
+/* Dark mode for nav bar and nav links */
+.dark-mode .nav,
 .dark-mode .nav-links .nav-item {
+  background-color: #20384a; /* Change background color */
   color: #ffffff;
 }
+
 .dark-mode .halfmoon .moon,
 .dark-mode .halfmoon .sun {
   background-color: #ffffff;
