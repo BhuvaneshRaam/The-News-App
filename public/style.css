@@ -7,14 +7,21 @@
 }
 :root {
   --primary-text-color: #183b56;
+  --background-color: #ffffff;
+  --card-background-color: #f9fdff;
   --secondary-text-color: #577592;
   --accent-color: #2294ed;
   --accent-color-dark: #1d69a3;
 }
 
 body {
+  background-color: var(--background-color);
   font-family: "Saira", sans-serif;
   color: var(--primary-text-color);
+}
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
 }
 p {
   font-family: "Saira", sans-serif;
